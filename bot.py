@@ -9,7 +9,7 @@ from datetime import datetime
 # Включаем логирование
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '7508024324:AAGiDcLGzGzZufvyB5efVqkT3FFEBAOfRGs'
+API_TOKEN = ''
 
 # Инициализация бота
 bot = Bot(token=API_TOKEN, session=AiohttpSession())
